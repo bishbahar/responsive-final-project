@@ -17,7 +17,6 @@ h3 {
 h1 {
   font-size: 96px;
 }
-
 h2 {
   font-size: 48px;
 }
@@ -31,6 +30,22 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+@media (min-width: 375px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
 
 .navigation-links {
   display: flex;
