@@ -45,7 +45,11 @@ p {
     font-size: 14px;
   }
 }
-
+@media (min-width: 375px) {
+  .buttons {
+    font-size: 12px;
+  }
+}
 
 .navigation-links {
   display: flex;
